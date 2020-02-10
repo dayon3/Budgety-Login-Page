@@ -1,0 +1,16 @@
+{
+	"name": "Budgety-Landing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "node-sass sass/main.scss css/main.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"feather-icons": "^4.26.0",
+		"node-sass": "^4.13.1"
+	}
+}

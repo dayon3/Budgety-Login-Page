@@ -1,0 +1,50 @@
+.container {
+	max-width: 120rem;
+	margin: 5rem auto;
+	background-color: var(--color-primary);
+	box-shadow: var(--shadow-dark);
+	border: var(--line);
+	border-radius: 3rem;
+	padding: 2rem 8rem;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: 50rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 8rem;
+	border-bottom: var(--line);
+}
+
+.hero {
+	flex: 1 0 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10rem 0.5rem;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 8rem;
+	border-top: var(--line-light);
+
+	&__social {
+		&-link {
+			text-decoration: none;
+		}
+
+		& > a:not(:last-child) {
+			margin-right: 2rem;
+		}
+	}
+}

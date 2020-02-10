@@ -1,0 +1,123 @@
+// LOGO
+.logobox {
+	display: flex;
+	align-items: center;
+
+	&__logo {
+		height: 3.25rem;
+		margin-right: 2rem;
+	}
+
+	&__brand {
+		font-size: 2rem;
+		font-weight: bolder;
+		color: var(--color-grey-dark-1);
+		text-shadow: 2px 2px var(--color-secondary);
+	}
+}
+
+// Navigation
+.navigation__link {
+	color: var(--color-grey-dark-1);
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 3px;
+
+	&:not(:last-child) {
+		margin-right: 4.5rem;
+	}
+}
+
+// Button
+button {
+	cursor: pointer;
+	text-transform: capitalize;
+	padding: 0.8em 1.6em;
+	border: var(--line);
+	// border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+	color: var(--color-grey-dark-1);
+	text-shadow: 0 -0.05em 0.05em rgba(0, 0, 0, 0.5);
+	font-size: 125%;
+	line-height: 1.5;
+	outline: none;
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.cta {
+	& #cta__link {
+		margin-right: 2rem;
+	}
+
+	&__button {
+		background: var(--color-secondary)
+			linear-gradient(hsla(0, 0%, 100%, 0.2), transparent);
+		border-radius: 0.3rem;
+	}
+}
+
+// Hero
+.hero {
+	&__content {
+		color: var(--color-grey-dark-1);
+
+		&-heading {
+			font-size: 4.5rem;
+			font-weight: bolder;
+			letter-spacing: 0.8rem;
+			line-height: normal;
+		}
+
+		&-description {
+			color: var(--color-grey-dark-2);
+			font-size: 1.5rem;
+			margin: 3rem 0;
+		}
+
+		&-form {
+			display: flex;
+			width: 100%;
+
+			&--input {
+				background: transparent;
+				padding: 1rem;
+				border: var(--line);
+				border-right: none;
+				border-top-left-radius: 0.3rem;
+				border-bottom-left-radius: 0.3rem;
+			}
+
+			&--button {
+				background: var(--color-secondary-light)
+					linear-gradient(hsla(0, 0%, 100%, 0.2), transparent);
+				border-top-right-radius: 0.3rem;
+				border-bottom-right-radius: 0.3rem;
+			}
+		}
+	}
+
+	&__image {
+		width: 50%;
+	}
+}
+
+// ICONS
+.feather {
+	width: 1.8rem;
+	height: 1.8rem;
+	stroke: var(--color-grey-dark-1);
+	stroke-width: 1.5;
+
+	fill: none;
+	margin: 0.5rem 0;
+}
+
+.feather-fill {
+	fill: var(--color-grey-dark-1);
+}
+
+.legal {
+	color: var(--color-grey-dark-1);
+}
