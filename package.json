@@ -11,6 +11,6 @@
 	"license": "ISC",
 	"dependencies": {
 		"feather-icons": "^4.26.0",
-		"node-sass": "^4.13.1"
+		"node-sass": "^7.0.0"
 	}
 }
